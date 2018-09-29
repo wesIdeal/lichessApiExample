@@ -56,7 +56,7 @@ namespace lichessApiExample
                 _patPath = value;
                 if (!File.Exists(_patPath))
                 {
-                    throw new ArgumentException("Path given does not exist.");
+                    throw new ArgumentException("Access token path given does not exist.");
                 }
                 else
                 {
